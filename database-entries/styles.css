@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(238, 237, 247);
+  font-family: 'Source Open Sans', sans-serif;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 600px;
+  margin: auto;
+  display: flex;
+}
+
+ul {
+  width: 100%;
+  list-style: none;
+}
+
+.card {
+  cursor: pointer;
+  height: 100px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5px;
+}
+
+.card:hover {
+  background: rgb(88, 88, 248);
+  color: #fff !important;
+}
+
+.cardcore {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2em;
+}
+
+.leftsection {
+  display: flex;
+}
+.buttonsection {
+  margin-right: 2em;
+}
+.buttonsection .fa-play {
+  color: rgb(88, 88, 248);
+  border: 1px solid rgb(211, 211, 255);
+  background: rgb(244, 244, 253);
+  padding: 0.8em 0.8em 0.8em 0.9em;
+  font-size: 1.4em;
+  border-radius: 50%;
+}
+
+.infosection {
+  align-self: center;
+}
+.infosection h2 {
+  margin-bottom: 5px;
+}
+
+.subsection {
+  display: flex;
+  flex-direction: row;
+}
+
+.subsection img {
+  position: relative;
+  top: -2px;
+  margin-right: 2px;
+  width: 14px;
+  height: 100%;
+}
+
+.separator {
+  margin: 0 2px;
+}
+
+.keysection {
+  /* width: 262px; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: rgb(155, 154, 154);
+}

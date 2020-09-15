@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: rgb(15, 15, 27);
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+}
+
+.header {
+  text-align: center;
+  width: 500px;
+  margin: auto;
+  margin-bottom: 5em;
+}
+.header h1 {
+  font-size: 1.7em;
+}
+.header p {
+  font-size: 1.3em;
+  color: #eee;
+}
+
+.subscription-plans {
+  display: grid;
+  grid-template-columns: repeat(3, 280px);
+  gap: 1em;
+  justify-content: center;
+}
+
+.sub-plan {
+  cursor: pointer;
+  position: relative;
+  display: grid;
+  width: 280px;
+  height: 280px;
+  background: rgb(23, 23, 39);
+  border-radius: 20px;
+  padding: 0.5em 2em;
+  font-size: 1.3em;
+}
+.sub-plan:hover {
+  background: rgb(35, 35, 134);
+}
+
+.sub-plan h2 {
+  margin: 0;
+}
+
+.sub-plan p {
+  margin-top: 3em;
+  font-size: 0.9em;
+}
+
+.best-deal {
+  position: absolute;
+  top: -0.8em;
+  left: 4.2em;
+  background: rgb(160, 224, 178);
+  color: rgb(15, 15, 27);
+  padding: 0.2em 1em;
+  border-radius: 15px;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.btn {
+  display: block;
+  margin: auto;
+  margin-top: 4em;
+  background: transparent;
+  border: 2px solid rgb(38, 38, 65);
+  border-radius: 10px;
+  padding: 1em 3em;
+  color: rgb(101, 101, 155);
+  font-size: 1.1em;
+}
