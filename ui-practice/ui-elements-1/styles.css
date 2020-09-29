@@ -1,0 +1,27 @@
+body {
+  background: #f6f9fc;
+}
+
+.container {
+  width: 1000px;
+}
+
+select.order {
+  border: none;
+  padding: 1em;
+  border-radius: 20px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.drop-down {
+  margin-top: 2em;
+  background: #fff;
+  padding: 1em;
+  border-radius: 20px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  width: 100px;
+}
+select.order2 {
+  border: none;
+  padding: 0 1em;
+}

@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ae9cff;
+  height: 100vh;
+  margin: 0;
+  font-family: Helvetica;
+  /* font-family: 'Source Sans Pro', sans-serif; */
+}
+
+.container {
+  position: relative;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  background: #653df2;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* .trial-card  */
+.trial-card {
+  position: relative;
+  top: 0;
+  left: -150px;
+  background: linear-gradient(120deg, #8468ff 62%, #785bf7 62%);
+  width: 22em;
+  height: 14em;
+  border-radius: 15px;
+  padding: 1.8em 2em;
+  color: #fff;
+  box-shadow: 0 3px 10px #785bf777;
+}
+
+.trial-card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.trial-card-header h2 {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+  line-height: 1.45;
+}
+
+.close-modal {
+  cursor: pointer;
+  position: relative;
+  right: -0.9em;
+  top: -1em;
+}
+
+.trial-card p {
+  font-size: 0.8em;
+  margin: 1.5em 0;
+}
+
+.trial-btn {
+  padding: 0.8em;
+}
+
+/* .trial-card end */
+/* product-card  */
+.product-card {
+  position: relative;
+  top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  padding: 0.5em 1.5em;
+  border-radius: 15px;
+  background: #fff;
+  width: 12em;
+  height: 14em;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card h2 {
+  font-size: 20px;
+}
+
+.product-card p {
+  font-size: 0.8em;
+  margin: 0;
+}
+
+.product-card strong {
+  font-size: 30px;
+}
+
+.price {
+  margin: 1.3em 0 !important;
+}
+
+.sign-up {
+  padding: 0.8em;
+  box-shadow: 0 5px 10px #643df277;
+}
+
+/* product-card end */
+/* profile-card */
+.profile-card {
+  position: relative;
+  top: -300px;
+  left: 270px;
+  background: #fff;
+  border-radius: 15px;
+  padding: 1.4em;
+  width: 15em;
+  height: 19em;
+  color: #302f48;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card-header {
+  position: relative;
+  display: flex;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #f3eeff;
+}
+
+.profile-card-header .profile-pic {
+  width: 3.5em;
+  height: 3.5em;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-card-header img {
+  width: 100%;
+}
+
+.profile-info {
+  padding: 0.8em 0.5em;
+}
+
+.profile-info h3 {
+  font-size: 0.85em;
+  margin: 0;
+}
+
+.profile-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 0.5em;
+}
+
+.profile-card ul li {
+  padding: 0.5em 1em;
+}
+
+.profile-card ul li:hover {
+  cursor: pointer;
+  background: #ccc0ff;
+  border-radius: 10px;
+}
+
+.profile-card ul li > i {
+  margin-right: 0.5em;
+}
+
+.close-profile-modal {
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  color: #ccc0ff;
+}
+/* profile-card end */
