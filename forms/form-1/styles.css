@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #ebf3fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.submit-form-card {
+  background: #fff;
+  color: #24245c;
+  border-radius: 10px;
+  width: 23em;
+  height: 29em;
+  overflow: hidden;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  background: #24245c;
+  color: #fff;
+  padding: 1em;
+  height: 8em;
+}
+
+.card-header h2 {
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+}
+
+.close-modal-wrapper {
+  display: inline-grid;
+  width: 100%;
+}
+
+.close-modal {
+  cursor: pointer;
+  justify-self: end;
+  display: flex;
+  background: #2f316e;
+  border-radius: 50%;
+  width: 2em;
+  padding: 0.3em 0.5em;
+  font-weight: lighter;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+}
+
+.form-core {
+  display: flex;
+  flex-direction: column;
+
+  margin: 2.5em 0;
+}
+
+.btn {
+  cursor: pointer;
+  align-self: center;
+  display: inline-block;
+  min-width: 9rem;
+  min-height: 2.5rem;
+  border: none;
+  background: #24245c;
+  color: #fff;
+  box-shadow: 0 2px 5px #24245c71;
+  border-radius: 20px;
+  font-size: 0.7em;
+  font-weight: 699;
+}
+
+label {
+  font-size: 0.6em;
+  font-weight: bold;
+}
+
+input,
+select {
+  font-size: 0.7em;
+  font-weight: bold;
+  border: none;
+  padding: 0.7em 1em 0.7em 0;
+  border-bottom: 2px solid #b4b4c7;
+  color: #7c7c9d;
+}
+
+select {
+  cursor: pointer;
+  appearance: none;
+  color: #757575;
+  background-image: url(../../assets/arrow-down-angle.svg);
+  background-repeat: no-repeat;
+  background-position: right 1.5em top 0.7em;
+  background-size: 1em auto, 100%;
+}
+
+option {
+  cursor: pointer;
+}
+
+input {
+  margin-bottom: 2em;
+}
