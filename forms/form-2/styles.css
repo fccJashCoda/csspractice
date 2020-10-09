@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  background: #eef0f7;
+  font-family: Helvetica, sans-serif;
+}
+
+.container {
+  position: relative;
+  top: -10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 120vh;
+  background: red;
+  margin: auto;
+  border-radius: 50%;
+  background: linear-gradient(125deg, #ff9bc8, #ffd479);
+}
+
+.newsletter-card {
+  background: #fff;
+  border-radius: 2px;
+  display: flex;
+  padding: 1.5em;
+}
+
+.card-body {
+  position: relative;
+  width: 260px;
+  margin-left: 2em;
+  padding-top: 1em;
+  color: #1d2553;
+}
+
+.card-body p {
+  font-weight: bold;
+  color: #3f456c;
+  line-height: 1.6;
+}
+/* .close-modal-wrapper {
+  display: ;
+} */
+
+.close-modal {
+  cursor: pointer;
+  position: absolute;
+  top: -1em;
+  right: -1em;
+  background: #fff;
+  padding: 0.7em 0.8em;
+  border-radius: 50%;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-body form {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body form input {
+  padding: 1em 1.3em;
+  font-size: 1em;
+  font-weight: bold;
+  border: 1px solid #d9ddeb;
+  border-radius: 2px;
+  margin-bottom: 1em;
+  outline: none;
+}
+
+.card-body form button {
+  cursor: pointer;
+  padding: 0.7em;
+  border: none;
+  font-size: 1.3em;
+  color: #fff;
+  border-radius: 2px;
+  background: linear-gradient(90deg, #89c9ff, #6487ff);
+  outline: none;
+  box-shadow: 0 3px 5px #6488ff6b;
+}
+
+.card-body form button:hover {
+  background: linear-gradient(270deg, #89c9ff, #6487ff);
+}
+
+.card-body small {
+  display: inline-block;
+  width: 100%;
+  margin-top: 1em;
+  text-align: center;
+  color: #989cb0;
+}
+
+img {
+  width: 300px;
+}

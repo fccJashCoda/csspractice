@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ui elements 4</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card share-card">
+        <div class="card-header">
+          <h2>Share project</h2>
+        </div>
+        <div class="card-body">
+          <div class="link-info">
+            <h3>Share read-only link</h3>
+            <p>
+              Anyone with the link can view the project, but won't be able to
+              edit it.
+            </p>
+          </div>
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+      <div class="card menu-card">
+        <ul>
+          <li><i class="fas fa-columns"></i>Dashboard</li>
+          <li><i class="fas fa-cogs"></i>Project Settings</li>
+          <li><i class="fas fa-folder-open"></i>Files</li>
+        </ul>
+      </div>
+      <div class="card invite-collaborators-card">
+        <h2>Invite content collaborators</h2>
+        <p>
+          Collaborators can edit project content in the <a href="#">Editor</a>
+        </p>
+        <button>Invite Collaborators</button>
+      </div>
+    </div>
+  </body>
+</html>
