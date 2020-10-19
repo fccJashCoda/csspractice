@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ui-elements</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card content-settings">
+        <div class="preferred-wrapper">
+          <p>Preferred content</p>
+          <select name="preferred-content" id="preferred-content">
+            <option value="design">Design</option>
+            <option value="technology">Technology</option>
+            <option value="news">News</option>
+          </select>
+        </div>
+      </div>
+      <div class="card feed-settings">
+        <h2>Feed settings</h2>
+        <form action="">
+          <div class="content-suggestions-radio">
+            <label for="content=suggestions">Show content suggestions</label>
+            <div class="radio-container">
+              <div class="radio-container-off">
+                <input
+                  type="radio"
+                  id="content-suggestions-off"
+                  name="content-suggestions"
+                />
+                <label class="label label-off" for="content-suggestions-off"
+                  ><i class="fas fa-times"></i
+                ></label>
+              </div>
+              <div class="radio-container-on">
+                <input
+                  type="radio"
+                  id="content-suggestions-on"
+                  name="content-suggestions"
+                  checked
+                />
+                <label
+                  class="label label-on active"
+                  for="content-suggestions-on"
+                  ><i class="fas fa-check"></i
+                ></label>
+              </div>
+            </div>
+          </div>
+          <div class="content-suggestions-radio">
+            <label for="tags-and-topics">Show tags and topics</label>
+            <div class="radio-container">
+              <div class="radio-container-off">
+                <input
+                  type="radio"
+                  id="tags-and-topics-off"
+                  name="tags-and-topics"
+                  checked
+                />
+                <label class="label label-off active" for="tags-and-topics-off"
+                  ><i class="fas fa-times"></i
+                ></label>
+              </div>
+              <div class="radio-container-on">
+                <input
+                  type="radio"
+                  id="tags-and-topics-on"
+                  name="tags-and-topics"
+                />
+                <label class="label label-on" for="tags-and-topics-on"
+                  ><i class="fas fa-check"></i
+                ></label>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="card try-new-version">
+        <button>Try the new version</button>
+        <p><a href="#">Remove this app</a> or <a href="#">cancel</a></p>
+      </div>
+    </div>
+  </body>
+</html>
