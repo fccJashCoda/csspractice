@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  color: #212943;
+  background: rgb(231, 233, 235);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+}
+
+.price-monitor-card {
+  position: absolute;
+  top: -25em;
+  left: -20em;
+  margin-top: 5em;
+  padding: 4em;
+  padding-top: 1em;
+  width: 720px;
+  height: 370px;
+  box-shadow: 0 15px 15px rgba($color: #000000, $alpha: 0.1);
+  background: #fff;
+  border-radius: 10px;
+
+  h3 {
+    font-size: 1.3em;
+    margin: 2em 0;
+  }
+
+  .card-holder {
+    display: flex;
+    justify-content: space-between;
+
+    .price-card {
+      width: 180px;
+      height: 190px;
+
+      .price-block {
+        p {
+          margin-top: 1.5em;
+          margin-bottom: 0;
+          text-align: center;
+        }
+
+        h2 {
+          font-size: 1.3em;
+          margin-top: 0.3em;
+          text-align: center;
+        }
+      }
+    }
+
+    .your-price-card {
+      position: relative;
+      background: linear-gradient(125deg, #f9fbff, #f3f4fd);
+
+      .hourly-rate {
+        position: absolute;
+        font-size: 0.7em;
+        left: 1.7em;
+        bottom: 2em;
+        font-weight: bold;
+      }
+    }
+
+    .average-today-card {
+      background: linear-gradient(125deg, #fafcfe, #f4fdf4);
+    }
+
+    .total-month-card {
+      background: linear-gradient(125deg, #fffcfa, #fdf7f3);
+    }
+  }
+}
+
+.add-service-card {
+  position: absolute;
+  top: 6em;
+  left: -16em;
+  width: 20em;
+  height: 9em;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 15px 15px rgba($color: #000000, $alpha: 0.1);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+
+  .add-service-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    p {
+      padding-left: 1em;
+      font-weight: bold;
+    }
+
+    button {
+      border: none;
+      width: 2em;
+      height: 2em;
+      border-radius: 50%;
+      background: #9ea5f5;
+      font-size: 1.5em;
+      color: #fff;
+      box-shadow: 0 15px 15px rgba($color: #9ea5f5, $alpha: 0.2em);
+    }
+  }
+}
+
+.connected-card {
+  position: absolute;
+  left: 7em;
+  top: 6em;
+  width: 26em;
+  height: 20em;
+  padding: 2em;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 15px 15px rgba($color: #000000, $alpha: 0.1);
+
+  .connected-card-wrapper {
+    background: linear-gradient(125deg, #f9fbff, #f3f4fd);
+    padding: 3em 4em;
+    width: 100%;
+    height: 100%;
+
+    h3 {
+      margin: 0;
+      font-size: 1.4em;
+    }
+    p {
+      margin-top: 0.4em;
+      margin-bottom: 2em;
+    }
+
+    .profiles-wrapper {
+      position: relative;
+      left: -0.5em;
+      display: flex;
+      .profile {
+        width: 4em;
+        height: 4em;
+        border-radius: 50%;
+        background: blue;
+        border: 5px solid #fff;
+        overflow: hidden;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .connected-profile-2 {
+        position: relative;
+        left: -1.2em;
+      }
+      .connected-profile-3 {
+        position: relative;
+        left: -2.2em;
+      }
+    }
+  }
+}
